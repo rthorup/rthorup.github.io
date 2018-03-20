@@ -8,6 +8,23 @@ let nameCounter = 1;
 let titleCounter = 1;
 let angryCounter = 0;
 
+let nameArray = ['Ryan Thorup', 'Thorpus Maximus'];
+let titleArray = ['Web Developer', 'Game of Thrones Enthusiast', 'Trivia Addict', 'Devourer of Chaos', 'SKC Fan']
+let skills = ['AJAX', 'CSS3', 'Express', 'Github', 'Heroku', 'HTML5', 'JavaScript', 'jQuery', 'MongoDB', 'MySQL', 'Node.js', 'Vue.js'];
+
+function shuffle(o) {
+  for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+  return o;
+};
+
+shuffle(skills);
+for (let x = 0; x < skills.length; x++) {
+  let div = document.createElement('div');
+  div.innerHTML = skills[x];
+  document.getElementById('skillList').appendChild(div);
+}
+
+
 name.addEventListener("click", () => {
   if (nameCounter < nameArray.length) {
     name.innerHTML = nameArray[nameCounter];
@@ -34,6 +51,3 @@ description.addEventListener("click", () => {
     angryCounter++;
   }
 });
-
-let nameArray = ['Ryan Thorup', 'Thorpus Maximus'];
-let titleArray = ['Web Developer', 'Game of Thrones Enthusiast', 'Trivia Addict', 'Devourer of Chaos', 'SKC Fan']
