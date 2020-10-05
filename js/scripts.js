@@ -1,7 +1,6 @@
 'use strict';
 window.onload = function() {
   console.log('so take off all your nodes');
-
   let name = document.getElementById('myName');
   let description = document.getElementById('titleDescription');
 
@@ -11,7 +10,7 @@ window.onload = function() {
 
   let nameArray = ['Ryan Thorup', 'Thorpus Maximus'];
   let titleArray = ['Web Developer', 'Game of Thrones Enthusiast', 'Trivia Addict', 'Devourer of Chaos', 'SKC Fan']
-  let skills = ['AJAX', 'CSS3', 'Express', 'Github', 'Heroku', 'HTML5', 'JavaScript', 'jQuery', 'MongoDB', 'MySQL', 'Node.js', 'Vue.js'];
+  let skills = ['AJAX', 'CSS3', 'Express', 'Github', 'Heroku', 'HTML5', 'PHP', 'JavaScript', 'jQuery', 'MSSQL','MySQL', 'Node.js', 'React', 'Symfony', 'Vue.js'];
 
   function shuffle(o) {
     for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
