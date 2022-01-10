@@ -9,7 +9,7 @@ window.onload = function() {
   let angryCounter = 0;
 
   let nameArray = ['Ryan Thorup', 'Thorpus Maximus'];
-  let titleArray = ['Web Developer', 'Game of Thrones Enthusiast', 'Trivia Addict', 'Devourer of Chaos', 'SKC Fan']
+  let titleArray = ['Web Developer', 'Recovering Game of Thrones Enthusiast', 'Trivia Addict', 'Devourer of Chaos', 'SKC Fan', 'Beer Connoisseur']
   let skills = ['AJAX', 'CSS3', 'Express', 'Github', 'Heroku', 'HTML5', 'PHP', 'JavaScript', 'jQuery', 'MSSQL','MySQL', 'Node.js', 'React', 'Symfony', 'Vue.js'];
 
   function shuffle(o) {

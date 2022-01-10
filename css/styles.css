@@ -131,7 +131,9 @@ nav{
   color:#000;
   cursor:pointer
 }
-
+.external-link {
+  text-decoration: underline;
+}
 .column,.column li{-webkit-box-flex:1;-ms-flex:1;flex:1}
 .column li{list-style:none;margin:.5em;font-size:2em}
 .rowImage{
@@ -168,6 +170,9 @@ nav{
   color:#000;
   border:5px solid #8d9093
   }
+.text{
+  text-align: center;
+}
 .hovered{
   display:none;
   text-align:center;
@@ -184,7 +189,7 @@ nav{
   background-image:url(/got.png);background-size:cover;opacity:.8
 }
 .project2{
-  background-image:url(/trivia.png)
+  background-image:url(/collection-search.png)
   }
 .project2,.project3{
   background-size:contain;
@@ -192,7 +197,7 @@ nav{
   background-repeat:no-repeat;
   opacity:.8
 }
-.project3{background-image:url(/hotplate.png)}
+.project3{background-image:url(/quote-o-matic.png)}
 .project4{background-image:url(/auth.png)}
 .project4,.project5{
   background-size:cover;
